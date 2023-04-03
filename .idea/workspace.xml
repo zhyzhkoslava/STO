@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4646c5ec-cc53-4aef-8924-eaa6dfa31661" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STO.php" beforeDir="false" afterPath="$PROJECT_DIR$/STO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/Worker.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="2NPHHHvdzMLt2ngz6SXnvC9AK3S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,7 +41,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration name="STO.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/STO.php">
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -53,6 +56,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.STO.php" />
       </list>
     </recent_temporary>
   </component>
@@ -66,12 +70,25 @@
       <updated>1679558709875</updated>
       <workItem from="1679558711891" duration="2545000" />
       <workItem from="1679918686037" duration="24295000" />
-      <workItem from="1680164194877" duration="7515000" />
+      <workItem from="1680164194877" duration="9070000" />
+      <workItem from="1680246763954" duration="72000" />
     </task>
+    <task id="LOCAL-00001" summary="add resolution">
+      <created>1680178398382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680178398382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add resolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resolution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

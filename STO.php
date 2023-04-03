@@ -6,6 +6,7 @@ class STO
     public $workers = [];
     public $cars = [];
     public $carsInProgress = [];
+    public $worker;
 
     public function __construct(array $workers = [], array $cars = [])
     {

@@ -19,7 +19,7 @@ abstract class Worker
 
     public function diagnostic()
     {
-        echo 'Running Diagnostics...'.PHP_EOL;
+        echo 'Running Diagnostics...' . PHP_EOL;
         if ($this->car->crashes){
             $this->repair();
         } else {
@@ -29,11 +29,17 @@ abstract class Worker
 
     public function repair()
     {
-        echo 'Car repaired'.PHP_EOL;
+        echo 'Car repaired' . PHP_EOL;
+        echo 'Need to Pay ' . $this->paiment();
+    }
+
+    public function paiment()
+    {
+        return $this->price;
     }
     public function cantRepair()
     {
-        echo 'Can`t Repair Car'.PHP_EOL;
+        echo 'Can`t Repair Car' . PHP_EOL;
     }
 
     public function setIsFree(bool $is_free): void
